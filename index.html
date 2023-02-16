@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Многорівневе меню</title>
+</head>
+
+<body>
+    <nav>
+        <div class="dropdown">
+            <button class="home_button">HOME</button>
+        </div>
+
+        <div class="dropdown">
+            <button class="products_button">PRODUCTS +</button>
+            <div class="products_content">
+                <a href="">products 1</a>
+
+                <div class="dropdown_2">
+                    <a class="products_2" href="">products 2</a>
+                    <div class="products_2_content">
+                        <a href="">Sub Item</a>
+                        <a href="">Sub Item</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="about_button">ABOUT</button>
+        </div>
+
+        <div class="dropdown">
+            <button class="contact_button">CONTACT</button>
+        </div>
+
+    </nav>
+</body>
+
+</html>
